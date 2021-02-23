@@ -1,0 +1,136 @@
+header {
+    margin-top: 20px;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    max-width: 900px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+}
+
+a {
+color: #e76d35;
+text-decoration: wavy;
+font-weight: 700;
+font-size: 14px;
+padding-right: 10px;
+}
+a:hover{
+    color: white;
+    background-color: #ED6A5A;
+    font-weight: 700;
+    font-size: 14px;
+    }
+
+h1 {
+color: #ED6A5A;
+font-family: 'Poppins', sans-serif;
+font-weight: 700;
+}
+h2,h3 {
+color:#ED6A5A;
+}
+
+img {
+    width: 60%;
+}
+
+.bg {
+    padding: 20px;
+    background-color:#ece4dc;
+}
+ul {
+    color: #e76d35;
+    font-weight: 700;
+    font-size: 18px;
+    list-style-image: url("fanta-6.svg");
+}
+.image-container {
+    margin-bottom: 10px;
+}
+.table-container {
+    margin-top: 20px;
+}
+#customers {
+    text-align: left;
+    width: 100%;
+}
+tr {
+    font-size: 18px;
+}
+.table-title {
+    color:#ED6A5A;
+}
+
+.flexbox-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid orangered;
+    height: 200px;
+    position: relative;
+}
+
+#a {
+    width: 150px;
+    height: 50px;
+    background-color: #ED6A5A;
+}
+#b {
+    width: 150px;
+    height: 50px;
+    background-color: #e9965f;
+}
+#c {
+    width: 150px;
+    height: 50px;
+    background-color: #ED6A5A;  
+}
+#d {
+    width: 150px;
+    height: 50px;
+    background-color: #ED6A5A;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+#e {
+    width: 150px;
+    height: 50px;
+    background-color: #e9965f;
+}
+#f {
+    width: 150px;
+    height: 50px;
+    background-color: #ED6A5A;
+}
+.flexbox-navbar {
+    padding: 10px 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: left;
+    background-color: #ece4dc;
+}
+.margin {
+    margin-bottom: 20px;
+}
+
+footer {
+    position: sticky;
+    background-color:#ece4dc;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 10px;
+    color:#ED6A5A;
+    font-weight: 700;
+}
+
+footer div {
+    color:#ED6A5A;
+    position: absolute;
+    right: .5rem;
+    bottom: 0.8rem;
+}
