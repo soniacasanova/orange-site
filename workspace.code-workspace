@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../../my-website-theme"
+		},
+		{
+			"path": "../../html:css"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "html:css"
+	}
+}
