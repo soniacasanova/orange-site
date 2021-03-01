@@ -7,6 +7,16 @@ body {
     margin: 0px auto;
     margin-bottom: 20px;
 }
+p::after {
+    content: " y chim pom!";
+    font-weight: 700;
+    color: #ED6A5A;
+}
+p::first-letter {
+    font-size: 40px;
+    font-weight: 700;
+    color: #ED6A5A;
+}
 
 a {
 color: #e76d35;
@@ -21,6 +31,10 @@ a:hover{
     font-weight: 700;
     font-size: 14px;
     }
+
+li[value="3"]{
+    color: #ED6A5A;
+}
 
 h1 {
 color: #ED6A5A;
@@ -60,6 +74,9 @@ tr {
 }
 .table-title {
     color:#ED6A5A;
+}
+table tr:nth-child(odd) {
+    background-color: antiquewhite;
 }
 
 .flexbox-text {
@@ -115,6 +132,24 @@ tr {
 }
 .margin {
     margin-bottom: 20px;
+}
+#container-button {
+    margin-bottom: 20px;
+}
+
+span button {
+    margin: auto;
+    display: table;
+}
+
+button {
+    border: none;
+    color: white;
+    background-color: #f09369;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
 }
 
 footer {
